@@ -75,6 +75,8 @@ namespace ConsoleApp3
 
         static void AnalysisPosition(out double s3, out double se, out double t3, out double t4) //位置分析
         {
+
+
             t3 = Math.Atan((L6 + L1 * Math.Sin(T1)) / (L1 * Math.Cos(T1)));
             s3 = (L1 * Math.Cos(T1)) / (Math.Cos(t3));
             t4 = Math.Asin((_L6 - (L3 * Math.Sin(t3))) / L4);
